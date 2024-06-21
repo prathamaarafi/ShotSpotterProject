@@ -11,11 +11,11 @@
     <header>
         <nav>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/Schedule">Schedule</a></li>
+                <li><a href="{{ route('home') }}">Home</a></li>
+                <li><a href="{{ route('schedule') }}">Schedule</a></li>
                 <li><a href="https://wa.me/6285156144986" target="_blank">Contact</a></li>
-                <li><a href="/Dashboard">Dashboard</a></li>
-            </ul>
+                <li><a href="{{ route('dashboard') }}">Dashboard</a></li>
+            </ul>            
         </nav>
     </header>
 </head>

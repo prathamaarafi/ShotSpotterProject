@@ -24,9 +24,10 @@
             <label for="Admin">Admin</label>
 
             <div class="btn-container">
-                <a class="btn-login" href="/Home">Login</a>
-                <a class="btn-signup" href="/Home">Sign Up</a>
+                <a class="btn-login" href="{{ route('home') }}">Login</a>
+                <a class="btn-signup" href="{{ route('home') }}">Sign Up</a>
             </div>
+            
         </div>
     </form>
     
